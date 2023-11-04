@@ -26,4 +26,8 @@ export class Todo {
   get userId() {
     return this.#userId;
   }
+
+  get completed() {
+    return this.#completed;
+  }
 }
